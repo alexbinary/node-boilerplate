@@ -1,5 +1,6 @@
 
-let expect = require('chai').expect
+let chai = require('chai')
+let expect = chai.expect
 
 describe('', function () {
   it('', function () {

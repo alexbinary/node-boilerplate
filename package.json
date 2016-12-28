@@ -1,11 +1,20 @@
 {
-  "name": "alexbinary.boilerplate",
-  "description": "Basic boilerplate to bootstrap your node projects",
-  "version": "0.1.0",
+  "name": "@alexbinary/boilerplate",
+  "version": "1.0.0",
+  "description": "Basic boilerplate to bootstrap your node projects 🚀",
+  "keywords": [
+    "node",
+    "boilerplate"
+  ],
+  "homepage": "https://github.com/alexbinary/node-boilerplate#readme",
+  "bugs": {
+    "url": "https://github.com/alexbinary/node-boilerplate/issues",
+    "email": "alexandre@bintz.io"
+  },
+  "license": "MIT",
+  "author": "Alexandre Bintz <alexandre@bintz.io>",
   "main": "src/index.js",
   "repository": "https://github.com/alexbinary/node-boilerplate.git",
-  "author": "Alexandre Bintz <alexandre@bintz.io>",
-  "license": "MIT",
   "scripts": {
     "test": "istanbul cover _mocha",
     "testw": "mocha -w"
