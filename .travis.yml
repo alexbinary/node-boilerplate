@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- node
+- '7'
+- '6'
+deploy:
+  provider: npm
+  email: alexandre@bintz.io
+  api_key:
+    secure:
+      ## find your api key in ~/.npmrc
+      ## then run `travis setup npm --force`
+  on:
+    tags: true
+    node: node

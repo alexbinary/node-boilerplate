@@ -17,7 +17,8 @@
   "repository": "https://github.com/alexbinary/node-boilerplate.git",
   "scripts": {
     "test": "istanbul cover _mocha",
-    "testw": "mocha -w"
+    "testw": "mocha -w",
+    "prepublish": "mocha"
   },
   "devDependencies": {
     "chai": "^3.5.0",
